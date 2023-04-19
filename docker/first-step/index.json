@@ -6,6 +6,11 @@
             "text": "intro.md"
         },
         "steps": [
+            {
+                "title": "Docker run",
+                "text": "1-run/text.md",
+                "verify": "1-run/verify.sh"
+            }
         ],
         "finish": {
             "text": "finish.md"
