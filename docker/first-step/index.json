@@ -18,7 +18,8 @@
             },
             {
                 "title": "Docker ps",
-                "text": "3-ps/text.md"
+                "text": "3-ps/text.md",
+                "verify": "3-ps/verify.sh"
             },
             {
                 "title": "Docker logs",
