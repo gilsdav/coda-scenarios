@@ -28,6 +28,10 @@
             {
                 "title": "Docker exec",
                 "text": "5-exec/text.md"
+            },
+            {
+                "title": "Docker images",
+                "text": "6-images/text.md"
             }
         ],
         "finish": {
