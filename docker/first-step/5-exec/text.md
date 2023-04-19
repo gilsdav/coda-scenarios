@@ -20,7 +20,7 @@ exit
 Un fichier vous intéresse et vous voulez l'extraire du container ? Utilisez la commande Docker `cp`{{}}.
 
 ```
-docker cp hello1:/opt/hello-world/rancher-logo.svg stat /etc/
+docker cp hello1:/opt/hello-world/rancher-logo.svg /etc/
 ls /etc/rancher-logo.svg
 ```{{exec}}
 
