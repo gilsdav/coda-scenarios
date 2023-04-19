@@ -1,4 +1,4 @@
-### Docker run
+### Docker stop
 
 Après l'étape précédente, vous avez peut-être remarqué que vous ne pouvez plus exécuter la commande `rm`{{}} sur le container **hello**.
 
