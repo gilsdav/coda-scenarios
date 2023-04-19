@@ -32,12 +32,12 @@
         ],
         "finish": {
             "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {"file": "test.txt", "target": "~/", "chmod": "+w"}
+            ]
         }
-    },
-    "assets": {
-        "host01": [
-            {"file": "test.txt", "target": "/root", "chmod": "+w"}
-        ]
     },
     "backend": {
         "imageid": "ubuntu20.04"
