@@ -1,8 +1,8 @@
 ### Docker exec
 
-> Précédement nous avons lancé les containers **hello1** et **hello2**.
+> Précédemment nous avons lancé les containers **hello1** et **hello2**.
 
-Vous avez maintenant access aux logs, mais pour du debugging vous voudrez probablement parfois accéder à des fichiers que l'application modifie ou crée.
+Vous avez maintenant accès aux logs, mais pour du debugging vous voudrez probablement parfois accéder à des fichiers que l'application modifie ou crée.
 
 Pour entrer dans un container qui est lancé, vous devez utiliser la commande `exec`{{}}.
 
@@ -11,7 +11,7 @@ docker exec -it hello1 /bin/bash
 ls
 ```{{exec}}
 
-Pour sortir du terminal de container utilisez la commande linux `exit`{{}}.
+Pour sortir du terminal de container utilisez la commande Linux `exit`{{}}.
 
 ```
 exit

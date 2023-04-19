@@ -1,6 +1,6 @@
 ### Docker ps
 
-Pour tester la commande ps, nous aurons a nouveau besoin de deux containers. Créez les:
+Pour tester la commande ps, nous aurons à nouveau besoin de deux containers. Créez-les:
 ```
 docker run -p 80:80 --name hello1 -d rancher/hello-world:latest
 docker run -p 81:80 --name hello2 -d rancher/hello-world:latest
@@ -11,7 +11,7 @@ Comme nous l'avons vu plus tôt, vous pouvez voir la liste des containers via un
 docker ps
 ```{{exec}}
 
-Stopez maintenant le premier container:
+Stoppez maintenant le premier container:
 ```
 docker stop hello1
 docker ps
