@@ -10,6 +10,11 @@
                 "title": "Docker run",
                 "text": "1-run/text.md",
                 "verify": "1-run/verify.sh"
+            },
+            {
+                "title": "Docker stop",
+                "text": "2-stop/text.md",
+                "verify": "2-stop/verify.sh"
             }
         ],
         "finish": {
