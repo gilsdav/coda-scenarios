@@ -27,8 +27,7 @@
             },
             {
                 "title": "Docker exec",
-                "text": "5-exec/text.md",
-                "verify": "5-exec/verify.sh"
+                "text": "5-exec/text.md"
             }
         ],
         "finish": {
