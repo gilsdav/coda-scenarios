@@ -17,16 +17,16 @@ Pour sortir du terminal de container utilisez la commande linux `exit`{{}}.
 exit
 ```{{exec}}
 
-Un fichier vous intéresse et vous voulez l'extraire du container ? Utilisez la commande Docker `cp` {{}}.
+Un fichier vous intéresse et vous voulez l'extraire du container ? Utilisez la commande Docker `cp`{{}}.
 
 ```
 docker cp hello1:/opt/hello-world/rancher-logo.svg ./
 ls
-```
+```{{exec}}
 
 Or you can upload something into the container.
 
 ```
 docker cp ./test.txt hello1:/opt/hello-world/
 docker exec -it hello1 ls
-```
+```{{exec}}
