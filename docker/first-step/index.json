@@ -15,6 +15,10 @@
                 "title": "Docker stop",
                 "text": "2-stop/text.md",
                 "verify": "2-stop/verify.sh"
+            },
+            {
+                "title": "Docker ps",
+                "text": "3-ps/text.md"
             }
         ],
         "finish": {
