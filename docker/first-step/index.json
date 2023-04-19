@@ -19,11 +19,25 @@
             {
                 "title": "Docker ps",
                 "text": "3-ps/text.md"
+            },
+            {
+                "title": "Docker logs",
+                "text": "4-logs/text.md"
+            },
+            {
+                "title": "Docker exec",
+                "text": "5-exec/text.md",
+                "verify": "5-exec/verify.sh"
             }
         ],
         "finish": {
             "text": "finish.md"
         }
+    },
+    "assets": {
+        "host01": [
+          {"file": "test.txt", "target": "~/", "chmod": "+w"}
+        ]
     },
     "backend": {
         "imageid": "ubuntu20.04"
