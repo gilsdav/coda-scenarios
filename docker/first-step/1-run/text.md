@@ -2,7 +2,7 @@
 
 La commande docker `run`{{}} permet de lancer un container sur base d'une image.
 
-Vous pouvez trouver la documentation <a href="https://docs.docker.com/engine/reference/run/">ici</a>.
+Vous pouvez trouver la documentation <a href="https://docs.docker.com/engine/reference/run/" target="_blank">ici</a>.
 
 Commençons par démarrer une image hello world:
 ```
