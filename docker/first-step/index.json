@@ -1,13 +1,15 @@
 {
     "title": "Premiers pas",
     "description": "Les commandes de base de Docker",
-    "intro": {
-        "text": "intro.md"
-    },
-    "steps": [
-    ],
-    "finish": {
-        "text": "finish.md"
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
     },
     "backend": {
         "imageid": "ubuntu20.04"
